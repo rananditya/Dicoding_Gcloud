@@ -1,4 +1,5 @@
-  runtime: php55
+  
+runtime: php55
 
 handlers:
 - url: /styles
