@@ -1,0 +1,273 @@
+<?
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Dava Rananditya</title>
+</head>
+
+<body>
+  <style>
+
+    
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    #navbar {
+      overflow: hidden;
+      background-color: rgb(7, 7, 7);
+    }
+
+    .ft_mdrp{
+      width: 20%;
+      height: 40%;
+      border-radius: 5px;
+    }
+
+    .ml5 {
+      position: relative;
+      font-weight: 400;
+      font-size: 5.5em;
+      color: #fcfdfd;
+    }
+
+    .ml5 .text-wrapper {
+      position: relative;
+      display: inline-block;
+      padding-top: 0.1em;
+      padding-right: 0.05em;
+      padding-bottom: 0.15em;
+      line-height: 1em;
+    }
+
+    .ml5 .line {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 3px;
+      width: 100%;
+      background-color: #faf9f9;
+      transform-origin: 0.6 0;
+    }
+
+
+
+
+    .ml5 .letters {
+      display: inline-block;
+      opacity: 0;
+    }
+
+    /* dark mode code */
+
+    .dark-mode {
+      background-color: white;
+      color: black;
+    }
+
+    /* toggle code start */
+
+    .switch {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+
+    /* Hide default HTML checkbox */
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    /* The slider */
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked+.slider {
+      background-color: #2196F3;
+    }
+
+    input:focus+.slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+    /* toggle code end */
+  </style>
+
+  
+
+  <br><br><br><br>
+  <center>
+    <h1 class="ml5">
+      <span class="text-wrapper">
+        <!-- <span class="line line1"></span> -->
+        <span class="letters letters-left">Mohamad Dava</span>
+
+        <span class="letters letters-right">Rananditya Putra</span>
+        <!-- <span class="line line2"></span> -->
+      </span>
+    </h1>
+    <br><br>
+    <img class="ft_mdrp" src="styles/img/foto_MDRP.jpeg" alt="Dava Rananditya">
+    <br><br>
+    <h2> JuNior Web Developer</h2>
+    <h3>Indonesia</h3>
+    <br><br>
+  </center>
+  <hr>
+  <center>
+  <p class="desc">Saya merupakan seorang mahasiswa Universitas Gunadarma, saya dari falkultas Teknik Industri jurusan
+     Teknik Informatika yang mengikuti Bangkit untuk mendapatkan pengalaman dalam study independent.
+  </p>
+</center>
+    <br>
+  <footer class="bg-dark text-center text-white">
+    <br>
+    <strong>Follow Me On...</strong>
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i
+            class="fab fa-twitter"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href=""
+          role="button"><i class="fab fa-linkedin-in"></i></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href=""
+          role="button"><i class="fab fa-github"></i></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.3);">
+      © 2023 Copyright: Mohamad Dava Rananditya Putra
+    </div>
+  </footer>
+
+  <script>
+    function dark_mode() {
+      console.log("change");
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+      element.classList.toggle("header_dark");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>
+    anime.timeline({ loop: true })
+      .add({
+        targets: '.ml5 .line',
+        opacity: [0.5, 1],
+        scaleX: [0, 1],
+        easing: "easeInOutExpo",
+        duration: 700
+      }).add({
+        targets: '.ml5 .line',
+        duration: 600,
+        easing: "easeOutExpo",
+        translateY: (el, i) => (-0.625 + 0.625 * 2 * i) + "em"
+      }).add({
+        targets: '.ml5 .ampersand',
+        opacity: [0, 1],
+        scaleY: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: '-=600'
+      }).add({
+        targets: '.ml5 .letters-left',
+        opacity: [0, 1],
+        translateX: ["0.5em", 0],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: '-=300'
+      }).add({
+        targets: '.ml5 .letters-right',
+        opacity: [0, 1],
+        translateX: ["-0.5em", 0],
+        easing: "easeOutExpo",
+        duration: 600,
+        offset: '-=600'
+      }).add({
+        targets: '.ml5',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+
+  </script>
+</body>
+
+</html>
+
+?>
