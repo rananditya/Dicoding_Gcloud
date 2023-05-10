@@ -166,14 +166,15 @@
     <br><br>
     <img class="ft_mdrp" src="https://storage.googleapis.com/projpertama/foto_MDRP.jpeg" alt="Dava Rananditya">
     <br><br>
-    <h2> JuNior Web Developer</h2>
+    <h2> Junior Web Developer</h2>
     <h3>Indonesia</h3>
     <br><br>
   </center>
   <hr>
   <center>
   <p class="desc">Saya merupakan seorang mahasiswa Universitas Gunadarma, saya dari falkultas Teknik Industri jurusan
-     Teknik Informatika yang mengikuti Bangkit untuk mendapatkan pengalaman dalam study independent.
+     Teknik Informatika. Di semester genap ini yaitu semester 6, saya mengikuti Bangkit untuk mendapatkan pengalaman dalam study independent.
+     Selain pengalaman saya juga mencari banyak ilmu dan sertifikat disini.
   </p>
 </center>
     <br>
