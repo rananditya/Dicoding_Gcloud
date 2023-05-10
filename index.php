@@ -164,7 +164,7 @@
       </span>
     </h1>
     <br><br>
-    <img class="ft_mdrp" src="styles/img/foto_MDRP.jpeg" alt="Dava Rananditya">
+    <img class="ft_mdrp" src="https://storage.googleapis.com/projpertama/foto_MDRP.jpeg" alt="Dava Rananditya">
     <br><br>
     <h2> JuNior Web Developer</h2>
     <h3>Indonesia</h3>
